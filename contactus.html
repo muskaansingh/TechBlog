@@ -23,7 +23,7 @@
                 <a class="nav-link" aria-current="page" href="/index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/about.html">About</a>
+                <a class="nav-link" href="/about.html">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -46,7 +46,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/contactus.html">Contact Us</a>
+                <a class="nav-link  active" href="/contactus.html">Contact Us</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -59,15 +59,30 @@
         </div>
     </nav>
 
-    
   
-    <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="./images/2.jpg" alt="" width="170" height="100">
-        <h1 class="display-5 fw-bold active">About Us!</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint sequi ratione, eaque nesciunt suscipit dolores magnam magni asperiores minus? Architecto quas ab, qui fuga quia cupiditate sapiente aspernatur odio et?</p>
-        </div>
-      </div>
+    <div class="container my-4">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputName" class="form-label">Name</label>
+                <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                <div id="nameHelp" class="form-text"></div>
+              </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
     
 
     <footer class="container">
